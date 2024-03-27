@@ -1,0 +1,42 @@
+.slider-container {
+    background: linear-gradient(135deg, #0a0a0a, black); /* Gradient background */
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 650px; /* Set a fixed height for the slider container */
+}
+
+.slider-image {
+    height: 75%;
+    width: 50%;
+    background-image: url('./ai.jpg');
+    background-size: cover; 
+    background-position: center; 
+    border-radius: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */
+}
+
+.slider-content {
+    text-align: center; /* Center align content */
+    padding: 20px; /* Add padding for better spacing */
+    max-width: 50%; /* Limit content width */
+}
+
+.slider-content h3 {
+    margin-top: 10px; 
+    margin-bottom: -30px;
+    color: white;
+    font-size: 40px; /* Decrease font size slightly */
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.slider-content h1 {
+    margin-bottom: 10px; /* Reduce bottom margin to decrease gap */
+    color: rgb(204, 195, 226);
+    font-size: 60px; /* Decrease font size slightly */
+    font-family: "Ubuntu", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 5px;
+}

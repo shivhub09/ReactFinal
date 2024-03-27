@@ -3,17 +3,27 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    background-color: #212121;
+    background-color:black ;
     padding-left: 30px;
     padding-right: 100px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); Add a subtle box shadow for depth */
 }
 
 .logo {
-    font-weight: bold;
+    /* font-weight: bold;
     color: rgb(204, 195, 226);
     font-size: 24px; 
     font-family: Arial, Helvetica, sans-serif;
-    letter-spacing: 1px;
+    letter-spacing: 1px; */
+    
+
+    color: rgb(204, 195, 226);
+    font-size: 24px; /* Decrease font size slightly */
+    font-family: "Rubik Scribble", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 5px;
+
 }
 
 .list-items {
@@ -21,9 +31,10 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-evenly;
+    margin-right: 30px;
 }
 
-.list-items li{
+.list-items li {
     list-style-type: none;
 }
 
@@ -38,8 +49,6 @@
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
-
-
 
 .list-items a:hover {
     background-color: #555; 
