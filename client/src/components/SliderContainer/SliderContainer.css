@@ -1,9 +1,9 @@
 .slider-container {
-    background: linear-gradient(45deg, #0a0a0a, black); /* Gradient background */
+    background: linear-gradient(135deg, #101010,#101010 ,  black);
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 650px; /* Set a fixed height for the slider container */
+    height: 500px; /* Set a fixed height for the slider container */
 }
 
 .slider-image {
@@ -28,7 +28,8 @@
     color: white;
     font-size: 40px; /* Decrease font size slightly */
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 5px;
 }
 
 .slider-content h1 {
