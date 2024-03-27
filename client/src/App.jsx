@@ -2,6 +2,7 @@ import './App.css'
 import MyComponent from './MyComponent'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
+import Services from './components/Services/Services'
 import SliderContainer from './components/SliderContainer/SliderContainer'
 
 function App() {
@@ -11,7 +12,9 @@ function App() {
       <Navbar></Navbar>
       {/* <MyComponent></MyComponent> */}
       <SliderContainer></SliderContainer>
+      <Services></Services>
       <Footer></Footer>
+    
     </>
   )
 }

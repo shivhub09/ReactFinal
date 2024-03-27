@@ -18,11 +18,10 @@
     
 
     color: rgb(204, 195, 226);
-    font-size: 24px; /* Decrease font size slightly */
-    font-family: "Rubik Scribble", system-ui;
-    font-weight: 400;
-    font-style: normal;
-    letter-spacing: 5px;
+    font-size: 24px; 
+    font-weight: bold;
+    font-family: "Ubuntu", sans-serif;
+    letter-spacing: 5px; 
 
 }
 
