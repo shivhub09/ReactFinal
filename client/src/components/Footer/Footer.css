@@ -1,0 +1,30 @@
+.footer-container {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+
+.footer-box1,
+.footer-box3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-box1 h1,
+.footer-box3 h1 {
+    color: rgb(204, 195, 226);
+    font-size: 30px;
+    font-family: "Ubuntu", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    letter-spacing: 5px;
+}
+
+.footer-box2 {
+    width: 2px;
+    height: 50px; /* Adjust height to match the height of content in .footer-box1 and .footer-box3 */
+    background-color: rgb(204, 195, 226); /* Add background color for visibility */
+}
