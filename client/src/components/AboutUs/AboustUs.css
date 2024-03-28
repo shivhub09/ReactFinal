@@ -4,18 +4,21 @@
         flex-direction: row;
         align-items: center;
         justify-content: space-evenly;
-        height: 500px;
+        height: 450px;
         width: 100%;
+        margin: 0;
     }
 
+
     .AboutUs-images{
-        margin-top: 5px;
+        margin-top: 4px;
+        padding: 0;
         width: 40%;
         height: 50%;
     }
 
     .AboutUs-images1 , .AboutUs-images2 , .AboutUs-images3{
-        height: 100px;
+        height: 30%;
         width: 100%;
         background-color: aliceblue;
         margin-top: 10px;
@@ -35,7 +38,7 @@
 
     .AboutUs-title{
         width: 50%;
-        border-bottom: 1px solid white;
+        border-bottom: 1px solid grey;
     }
 
     .AboutUs-title h1{

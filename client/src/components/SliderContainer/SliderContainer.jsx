@@ -8,6 +8,9 @@ const SliderContainer = () => {
         <div className="slider-content">
             <h3>Welcome To</h3>
             <h1>AiFusion</h1>
+            {/* <div className="btns">
+            <button className='loginbtn'  type="button"><h1>LOGIN</h1></button>
+            </div> */}
         </div>
     </div>
   )
