@@ -1,16 +1,16 @@
 .slider-container {
-    background: linear-gradient(135deg, #101010,#101010 ,  black);
+    /* background: linear-gradient(135deg, #101010,#101010 ,  black); */
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-    height: 500px; /* Set a fixed height for the slider container */
+    height: 550px; /* Set a fixed height for the slider container */
 }
 
 .slider-image {
-    height: 75%;
-    width: 50%;
+    height: 90%;
+    width: 55%;
     background-image: url('./ai.jpg');
-    background-size: cover; 
+    background-size: cover;
     background-position: center; 
     border-radius: 12px;
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.5); /* Add shadow effect */

@@ -1,5 +1,6 @@
 import './App.css'
 import MyComponent from './MyComponent'
+import AboutUs from './components/AboutUs/AboutUs'
 import Footer from './components/Footer/Footer'
 import Navbar from './components/Navbar/Navbar'
 import Services from './components/Services/Services'
@@ -12,6 +13,7 @@ function App() {
       <Navbar></Navbar>
       {/* <MyComponent></MyComponent> */}
       <SliderContainer></SliderContainer>
+     <AboutUs></AboutUs>
       <Services></Services>
       <Footer></Footer>
     
